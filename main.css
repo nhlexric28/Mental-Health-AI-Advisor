@@ -1,0 +1,104 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    padding-bottom: 5rem; /* Add padding to the bottom to prevent overlap */
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+form {
+    margin-top: 1rem;
+}
+
+textarea,
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#recommendations,
+#feedbackMessage,
+#dailyTips,
+#contactMessage {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+body::after {
+    content: '';
+    display: block;
+    height: 60px;
+}
+
+#loadingSpinner {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
